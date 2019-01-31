@@ -14,7 +14,7 @@ sudo apt-get install mysql-server
 
 2) Execução do projeto:
 
-./accessmy.sh [arquivo do banco no formato accdb ou mdb] [arquivo do banco em mysql]
+./accessmy.sh [arquivo do banco no formato accdb ou mdb] [banco destinatário em MySql]
 
 Exemplo:
 
