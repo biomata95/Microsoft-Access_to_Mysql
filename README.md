@@ -8,7 +8,8 @@ Passos para conversão de accdb para um banco em mysql:
 
 1) Instale:
 
-sudo apt install mdbtools
+sudo apt-get install mdbtools
+sudo apt-get install mysql-server
 
 2) Execução do projeto:
 
