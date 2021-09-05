@@ -1,22 +1,22 @@
 # access-mysql
 
-Este código converte um arquivo accdb ou mdb no formato Mysql. Ou seja, nesta funcionalidade o banco inteiro e convertido, porém é necessário criar um banco de dados vazio em Mysql para que esta possiblidade seja viável.
+This code converts an accdb or mdb file into Mysql format. That is, in this functionality the entire database is converted, however it is necessary to create an empty database in Mysql so that this possibility is viable.
 
-Entretanto esta funcionalidade é compatível apenas com Linux.
-O Banco_Access-Exemplo.zip contém um banco de dados em access, com as tabelas Pessoa e Imóvel.
+However this feature is only supported on Linux.
+Banco_Access-Example.zip contains a database in access, with the Person and Property tables.
 
-Passos para conversão de accdb para um banco em mysql:
+Steps for converting accdb to a mysql database:
 
-1) Instale:
+1) Install:
 
 sudo apt-get install mdbtools
 sudo apt-get install mysql-server
 
-2) Execução do projeto:
+2) Execution of project:
 
-./accessmy.sh [arquivo do banco no formato accdb ou mdb] [banco destinatário em MySql]
+./accessmy.sh [database file in accdb or mdb format] [recipient bank on MySql]
 
-Exemplo:
+Example:
 
 ./accessmy.sh Banco_Access.accdb MySqlDatabase
 
